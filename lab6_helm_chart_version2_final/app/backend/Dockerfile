@@ -1,4 +1,4 @@
-FROM node:carbon-alpine
+FROM node:20.11-bookworm-slim
 
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_ENV production
